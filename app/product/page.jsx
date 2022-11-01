@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import useRouter from "next/navigation";
 
 async function getData() {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
